@@ -18,9 +18,9 @@ await Greeting('Seiji').then((res) => {
         return Number(res)*2;
     }).then((res) => {
         console.log(res);
-        return Promise.resolve(res*2); // resolveされたPromiseを返しています
+        return Promise.resolve(res*2);
     }).then((res) => {
-        console.log(res); //: resolveされた値で`then`が呼び出されます
+        console.log(res);
         return res*2;
     }).catch((err) => {
         console.log(err);
