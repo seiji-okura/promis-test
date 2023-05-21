@@ -1,4 +1,4 @@
-"use strict";
+// Promis test
 
 async function Greeting(name: string): Promise<number> {
     console.log('Greeting start'); // 3
